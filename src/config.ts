@@ -13,26 +13,19 @@ export const siteConfig = {
   skills: ["Python", "TypeScript/JavaScript", "React", "Django", "PostgreSQL", "AWS"],
   projects: [
     {
-      name: "AI Dev Roundup Newsletter",
+      name: "Secret Santa frontend app",
       description:
-        "One concise email. Five minutes. Every Tuesday. Essential AI news & trends, production-ready libraries, powerful AI tools, and real-world code examples",
-      link: "https://aidevroundup.com/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
+        "Secret Santa frontend app",
+      link: "https://github.com/alexandermkwan/secret-kwanzaa",
+      skills: ["React", "React Query", "GCP", "Cryptography"],
     },
     {
-      name: "Chrome Extension Mastery: Build Full-Stack Extensions with React & Node.js",
+      name: "Secret Santa backend app",
       description:
-        "Master the art of building production-ready, full-stack Chrome Extensions using modern web technologies and best practices",
-      link: "https://fullstackextensions.com/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
-    },
-    {
-      name: "ExtensionKit",
-      description:
-        "Kit to jump-start your Chrome extension projects with a variety of battle-tested starter templates & examples",
-      link: "https://extensionkit.io/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
-    },
+        "Secret Santa backend app",
+      link: "https://github.com/alexandermkwan/kwanzaa_backend",
+      skills: ["Django", "PostgreSQL", "GCP"],
+    }
   ],
   experience: [
     {
