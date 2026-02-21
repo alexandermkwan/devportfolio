@@ -10,7 +10,7 @@ export const siteConfig = {
   },
   aboutMe:
     "Full-Stack Software Engineer with experience architecting React/Django ecosystems and migrating complex legacy data for national firms. Specialized in bridging technical gaps between disparate data sources and business-critical ERP systems.",
-  skills: ["Javascript", "React", "Node.js", "Python", "AWS", "Docker"],
+  skills: ["Python", "TypeScript/JavaScript", "React", "Django", "PostgreSQL", "AWS"],
   projects: [
     {
       name: "AI Dev Roundup Newsletter",
@@ -40,29 +40,41 @@ export const siteConfig = {
       title: "Full-Stack Software Engineer",
       dateRange: "May 2023 - Present",
       bullets: [
-        "Led development of microservices architecture serving 1M+ users",
-        "Reduced API response times by 40% through optimization",
-        "Mentored team of 5 junior developers",
+        "Architected and launched a cross-platform (React/React Native) replacement for legacy inspection software, migrating 100+ active users to a custom-built Django ecosystem.",
+        "Engineered a seamless data migration from MySQL to PostgreSQL and AWS S3, maintaining 100% data integrity while replicating complex legacy schemas via Django ORM.",
+        "Spearheaded the development of an internal Python-based proposal tool. Reduced proposal generation time by 50% by automating the bridge between CRM data and Word templates using Jinja2 for 15+ users.",
+        "Developed a RESTful ETL service using Django to bridge disparate data sources with the Deltek ERP; automated the migration of legacy data from acquired firms, eliminating redundant manual processes for national business units.",
+        "Modernized Deltek ERP workflows through automated proposal follow-ups, increasing response rates and reclaiming bandwidth for the sales team."
       ],
     },
     {
-      company: "Startup Inc",
-      title: "Full Stack Developer",
-      dateRange: "Jun 2020 - Dec 2021",
+      company: "SLS Consulting, LLC",
+      title: "Software Engineer Intern",
+      dateRange: "May 2022 - Apr 2023",
       bullets: [
-        "Built and launched MVP product from scratch using React and Node.js",
-        "Implemented CI/CD pipeline reducing deployment time by 60%",
-        "Collaborated with product team to define technical requirements",
+        "Created Python scripts to transform finance data from Quickbooks and used PowerBI to visualize revenue comparison between 2021 and 2022, accounts receivable aging over 90 days, top expenses, and estimates",
+        "Created excel template and application prototype using Flutter for haz-mat classification, centralizing classification efforts",
+        "Customized Microsoft Dynamics 365 Sales to reflect SLS SLS principals’ and engineers’ needs, using triggers and entity business rules"
       ],
     },
     {
-      company: "Digital Agency",
-      title: "Frontend Developer",
-      dateRange: "Aug 2018 - May 2020",
+      company: "Worcester Polytechnic Institute",
+      title: "CMS Assistant",
+      dateRange: "Sept 2021 - May 2022",
       bullets: [
-        "Developed responsive web applications for 20+ clients",
-        "Improved site performance scores by 35% on average",
-        "Introduced modern JavaScript frameworks to legacy codebases",
+        "Utilised Drupal to build and update WPI web pages for faculty, staff and students by creating custom templates across the Drupal System.",
+        "Completed 100+ service desk tickets to satisfy user requests and better the stability of our web pages.",
+        "Implemented website widgets to boost functionality, improve the user experience, and promote WPI through effective search engine optimization."
+      ],
+    },
+    {
+      company: "Reify Health",
+      title: "Professional Services Intern",
+      dateRange: "Jun 2021 - Aug 2021",
+      bullets: [
+        "Optimized SQL queries to reconcile patient enrollment data, reducing manual discrepancies between database records and Excel reports",
+        "Implemented advanced lookup functions in patient enrollment reports using Excel index match functions.",
+        "Respond to and fulfil Jira tickets submitted by clinical trial associates and leads"
       ],
     },
   ],
@@ -72,9 +84,6 @@ export const siteConfig = {
       degree: "Bachelor of Science in Computer Science, Minor in Data Science",
       dateRange: "2019 - 2023",
       achievements: [
-        "Graduated Magna Cum Laude with 3.8 GPA",
-        "Dean's List all semesters",
-        "President of Computer Science Club",
       ],
     }
   ],
