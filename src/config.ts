@@ -37,7 +37,9 @@ export const siteConfig = {
         "Engineered a seamless data migration from MySQL to PostgreSQL and AWS S3, maintaining 100% data integrity while replicating complex legacy schemas via Django ORM.",
         "Spearheaded the development of an internal Python-based proposal tool. Reduced proposal generation time by 50% by automating the bridge between CRM data and Word templates using Jinja2 for 15+ users.",
         "Developed a RESTful ETL service using Django to bridge disparate data sources with the Deltek ERP; automated the migration of legacy data from acquired firms, eliminating redundant manual processes for national business units.",
-        "Modernized Deltek ERP workflows through automated proposal follow-ups, increasing response rates and reclaiming bandwidth for the sales team."
+        "Modernized Deltek ERP workflows through automated proposal follow-ups, increasing response rates and reclaiming bandwidth for the sales team.",
+        "Designed a medallion architecture schema and ingestion pipeline in Python and PostgreSQL, sourcing from Deltek ERP and PostgreSQL databases to power 'Vision Hub' — an org-wide project management tool enabling PMs to track projects across phases, tasks, resource levels/cost pools, and employee allocations via timesheet data.",
+        "Transformed previously inaccessible ERP data into actionable financial metrics — including POC, JTD Revenue, Previously Recognized Revenue, Current Period Revenue, Margin, WIP, and AR — giving project managers org-wide visibility into project financials for the first time."
       ],
     },
     {
